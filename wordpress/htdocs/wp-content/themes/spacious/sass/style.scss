@@ -1,0 +1,53 @@
+///////////////////////////
+// Default Theme Styling //
+///////////////////////////
+@import "default";
+
+///////////
+// Fonts //
+///////////
+@import "font-awesome";
+
+/////////////////////////////////////
+// Variables, Layouts and Elements //
+/////////////////////////////////////
+@import "basics/variables";
+@import "basics/typography";
+@import "basics/layout";
+
+@import "elements/header";
+@import "elements/footer";
+@import "elements/navbar";
+@import "elements/button";
+@import "elements/search";
+@import "elements/featured-slider";
+@import "elements/error-404";
+
+//////////////
+// Sections //
+//////////////
+@import "sections/about-home";
+@import "sections/our-programs";
+@import "sections/featured-article";
+@import "sections/our-apps";
+@import "sections/our-partners";
+@import "sections/events-slider";
+@import "sections/contact-us";
+
+@import "sections/about-us";
+@import "sections/visionaries";
+@import "sections/our-leadership";
+@import "sections/our-staff";
+@import "sections/director-info";
+@import "sections/staff-info";
+
+@import "sections/events-calendar";
+@import "sections/news-articles";
+@import "sections/news-videos";
+
+@import "sections/programs-page";
+
+@import "sections/reports-page";
+
+@import "sections/funders-page";
+@import "sections/support-us";

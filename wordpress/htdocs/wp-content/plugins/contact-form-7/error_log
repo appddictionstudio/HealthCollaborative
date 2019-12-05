@@ -1,0 +1,2 @@
+[03-Jun-2018 19:29:27 UTC] PHP Fatal error:  Call to undefined function plugin_basename() in /home/appddiction/public_html/healthcollaborative.net/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19
+[29-Sep-2018 15:59:57 UTC] PHP Fatal error:  Call to undefined function plugin_basename() in /home/appddiction/public_html/healthcollaborative.net/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19

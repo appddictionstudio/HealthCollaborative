@@ -1,0 +1,40 @@
+#our-apps
+    justify-content: center
+    background-color: $light-gray
+
+    .row
+        justify-content: center
+
+        h1
+            position: relative
+            color: white
+            margin-bottom: 50px
+
+            &::after
+                content: ""
+                position: absolute
+                bottom: 0
+                left: 12%
+                width: 80%
+                border-bottom: 2px solid white
+
+    .apps-list
+        justify-content: space-around
+
+        .column
+            flex: 0 1 20%
+            justify-content: space-between
+            align-items: center
+            padding: 30px
+            background-color: white
+
+            .download-button
+                width: 115px
+                height: 35px
+
+            .app-store-button
+                margin-top: 30px
+
+            .play-store-button
+                margin-top: 10px
+

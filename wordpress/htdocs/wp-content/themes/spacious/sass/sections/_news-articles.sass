@@ -1,0 +1,42 @@
+#news-articles
+    justify-content: center
+    background-color: $royal-blue
+    color: white
+
+    .row
+        justify-content: center
+
+        h1
+            color: white
+
+            &::after
+                border-color: white
+
+    .column.articles-container
+        justify-content: space-between
+
+        .ivycat-post
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            text-align: center
+
+            .post-thumbnail
+                margin: auto
+
+                img
+                    max-height: 100px
+                    max-width: 100px
+
+            .post-content
+                .entry-title a
+                    font-size: 20px
+                    text-decoration: underline
+                    color: white
+
+                .entry-summary
+                    align-self: center
+                    padding: 10px
+
+            .entry-utility
+                display: none

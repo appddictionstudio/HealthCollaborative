@@ -1,0 +1,34 @@
+#events-calendar
+    .mc-main.calendar.month
+        .my-calendar-header, .mc_bottomnav
+            background-color: orange
+
+        .my-calendar-date-switcher
+            form
+                input[type="submit"]
+                    background-color: $royal-blue
+
+        .my-calendar-header
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+
+        .my-calendar-table
+            caption.heading.my-calendar-month
+                background-color: $light-gray
+
+            .mc-row
+                th.day-heading, th.weekend-heading
+                    background-color: $light-gray
+
+                .current-day
+                    span.mc-date
+                        background-color: $light-gray
+
+        .mc_bottomnav
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+
+            .mc-print
+                align-self: center
